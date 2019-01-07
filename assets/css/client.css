@@ -1,0 +1,226 @@
+#video-library-navigation{
+	height: 50px;
+	line-height: 50px;
+}
+#video-library-navigation .btn-back{
+  position: relative;
+  display: inline-block;
+  margin: 0 50px;
+  padding: 0 0 0 15px;
+  font-size: 20px;
+  color: #1b4997;
+  font-family: 'LatoBold';
+  cursor: pointer;
+  background: transparent;
+}
+#video-library #video-library-navigation .btn-back{
+	margin: 0 0 50px 0;
+}
+#video-library-navigation .btn-back:after{
+	content: "\f104";
+	top: 1px;
+  left: 0;
+  margin-left: 0;
+}
+#video-library-navigation .btn-back:hover{
+  color: #000;
+}
+#video-library{
+  background-color: #c6e2fc;
+  position: relative;
+  padding: 35px 50px;
+}
+#video-library.video-tutorial{
+	background-color: transparent;
+	padding: 0;
+}
+#video-library .placeholder{
+	font-size: 16px;
+}
+#video-library ul li.topic{
+  height: auto;
+  line-height: 16px;
+  display: inline-block;
+  width: 100%;
+}
+#video-library ul li.topic .title{
+  height: 44px;
+  line-height: 44px;
+  display: flex;
+  font-family: 'LatoBold';
+}
+#video-library ul li.topic .title .name{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#video-library ul li.topic .title a,
+#video-library ul li.topic .title a{
+  padding: 0 0 0 40px;
+  color: #1b4997;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#video-library ul li.topic .title a:hover{
+	color: #000;
+}
+#video-library ul li.topic .title a:after{
+	font-family: 'FontAwesome';
+	margin-left: 5px;
+}
+#video-library ul li.topic .title a.read-more:after{
+	content: "\f103";
+}
+#video-library ul li.topic .title a.read-more.active:after{
+	content: "\f102";
+}
+#video-library ul li.topic .title a.watch-video:after{
+	content: "\f144";
+}
+#video-library ul li.topic .content{
+  width: 100%;
+  padding: 0;
+ 	display: none;
+}
+#video-library ul li.topic .content p{
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+#video-library .btn.back-to-subjects{
+  color: #000;
+  margin: 10px 0;
+}
+#video-library .btn-next{
+  position: relative;
+  display: inline-block;
+  margin: 30px 0;
+  font-size: 16px;
+  cursor: pointer;
+  opacity: 0.5;
+  pointer-events: none;
+}
+#video-library .btn-next:after{
+	content: "\f105";
+	top: 15px;
+}
+#video-library .btn-next.active{
+  opacity: 1;
+  pointer-events: auto;
+}
+#video-library .btn-next:hover{
+  color: #1b4997;
+}
+#video-library .col.col-3{
+  display: flex;
+}
+#video-library .col-3 .col-3-2,
+#video-library .col-3 .col-3-1{
+	display: inline-block;
+	float: left;
+}
+#video-library .col-3 .col-3-2{
+	width: 66.66%;
+	padding: 50px 25px 50px 50px;
+}
+#video-library .col-3 .col-3-2 video{
+	width: 100%;
+  margin: 25px 0;
+}
+#video-library .col-3 .col-3-2 p.description{
+	margin-bottom: 25px;
+}
+#video-library .col-3 .col-3-1{
+	width: 33.33%;
+	background: #c6e2fc;
+}
+#video-library .filters{
+	padding: 15px;
+  border-bottom: solid 1px #b7b7b7;
+}
+#video-library.topics .filters{
+  padding: 0 0 15px 0;
+  border: none;
+}
+#video-library .filters select{
+	position: relative;
+	background-color: #8dc5f9;
+  border: none;
+  font-family: 'LatoBold';
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 8px 30px 8px 8px;
+  color: #1b4997;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+}
+#video-library .filters .select-container{
+	position: relative;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+#video-library .filters .select-container:after{
+  font-family: 'FontAwesome';
+  content: "\f103";
+  position: absolute;
+  color: #1b4997;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+#video-library .inherited-videos {
+  margin-bottom: 25px;
+}
+#video-library .suggested-videos{
+  padding: 25px;
+}
+#video-library .suggested-videos h5{
+  margin: 0;
+}
+#video-library .suggested-videos .video-item{
+  display: inline-block;
+  width: 100%;
+  padding: 30px 0;
+  border-bottom: solid 1px #fff;
+}
+#video-library .suggested-videos .video-item:last-child{
+  border-bottom: none;
+}
+#video-library .suggested-videos .video-item .video,
+#video-library .suggested-videos .video-item .content,
+#video-library .suggested-videos .video-item img{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#video-library .suggested-videos .video-item .content{
+  margin-top: 10px;
+}
+#video-library .suggested-videos .video-item h6,
+#video-library .suggested-videos .video-item p.description{
+  line-height: 22px;
+}
+#video-library .suggested-videos .video-item h6{
+  margin-bottom: 5px;
+}
+#video-library .suggested-videos .video-item p.description{
+  font-size: 16px;
+}
+#video-library .suggested-videos .video-item a.watch-video{
+  display: block;
+  margin-top: 10px;
+  font-family: 'LatoBold';
+  text-transform: uppercase;
+}
+#video-library .suggested-videos .video-item a.watch-video:hover{
+  color: #000;
+}
+#video-library .suggested-videos .video-item a.watch-video:after{
+  font-family: 'FontAwesome';
+  margin-left: 5px;
+  content: "\f144";
+}
