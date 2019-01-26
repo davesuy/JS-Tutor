@@ -41,7 +41,7 @@ if ( !function_exists('js_topic_manager_add_table') ) {
 		global $jal_db_version;
 
 		global $wpdb;
-
+		dd($jal_db_version);
 
 
 		$grade_level_table_name = $wpdb->prefix . 'js_grade_level';
