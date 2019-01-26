@@ -32,7 +32,7 @@ if ( !function_exists('js_topic_manager_add_table') ) {
 
 	/**
 
-	 * Create new table to database intended fo api
+	 * Create new table to database intended f api
 
 	 */
 
