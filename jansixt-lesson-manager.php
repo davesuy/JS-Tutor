@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 /**
@@ -7,7 +6,7 @@
 
  * Description: Manages grade level, subjects, topics and modules
 
- * Author: Kooeedirccc
+ * Author: Kooeedirccceee
  * Version: 1.0
 
 */
