@@ -7,7 +7,7 @@
 
  * Description: Manages grade level, subjects, topics and modules
 
- * Author: Kooeedir
+ * Author: Kooeediraa
  * Version: 1.0
 
 */
