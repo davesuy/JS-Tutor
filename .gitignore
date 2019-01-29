@@ -1,0 +1,117 @@
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+.idea
+
+# ignore everything except the wp-content folder
+/*
+!wp-content/
+
+# ignore files starting with .
+.*
+
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+!.codeshipignore
+!.deployment
+
+# track .editorconfig file (i.e. do NOT ignore it)
+!.editorconfig
+
+# track .jshintignore file (i.e. do NOT ignore it)
+!.jshintignore
+
+# track readme.md in the root (i.e. do NOT ignore it)
+!readme.md
+
+# ignore all files that start with ~
+~*
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins" directory
+# "plugins" directory
+# "themes" directory
+wp-content/*
+!wp-content/themes/
+
+# ignore these plugins
+wp-content/plugins/hello.php
+wp-content/plugins/akismet
+wp-content/plugins/revisr
+
+# ignore specific themes
+wp-content/themes/twenty*/
+wp-content/themes/sage/
+
+# ignore sage theme related directories (
+# node, bower and the dist folder
+wp-content/themes/surebridge/node_modules/*
+wp-content/themes/surebridge/bower_components/*
+wp-content/themes/surebridge/dist/*
+wp-content/themes/surebridge/theme_dist/*
+wp-content/themes/surebridge/surebridge.zip
+wp-content/themes/surebridge/vendor/*
+
+# wpengine specific
+.smushit-status
+.gitattributes
+_wpeprivate
+wp-content/object-cache.php
+wp-content/mu-plugins/mu-plugin.php
+wp-content/mu-plugins/slt-force-strong-passwords.php
+wp-content/mu-plugins/limit-login-attempts
+wp-content/mu-plugins/wpengine-common
+wp-content/mysql.sql
+
+# large/disallowed file types
+# a CDN should be used for these
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi
+
+
+# ignore worpdress core
+
+path/*
